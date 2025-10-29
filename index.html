@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌠 Juego Estelar</title>
+  <link rel="stylesheet" href="cssjek.css">
+</head>
+<body>
+  <main class="container">
+    <h1>🌌 Pregunta Estelar</h1>
+
+    <div id="question">Haz clic para comenzar tu viaje cósmico.</div>
+    <div id="options"></div>
+    <div id="feedback" aria-live="polite"></div>
+    <div id="score">🌟 Puntuación: 0</div>
+
+    <button type="button" onclick="iniciarJuego()">🌠 Comenzar el viaje estelar</button>
+    <button type="button" id="compartir" onclick="copiarResultado()">📤 Compartir en el grupo</button>
+  </main>
+
+  <script src="questions.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
+
+
